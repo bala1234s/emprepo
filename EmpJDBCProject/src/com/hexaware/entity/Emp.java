@@ -36,6 +36,13 @@ public class Emp {
 	public void setEmpSal(double empSal) {
 		this.empSal = empSal;
 	}
+
+	@Override
+	public String toString() {
+		return "Emp Id = "+empId;
+	}
+	
+	
 	
 	
 }
