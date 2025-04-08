@@ -5,7 +5,7 @@ public class Emp {
 	private int empId;
 	private String empName;
 	private double empSal;
-	
+
 	public Emp(int empId, String empName, double empSal) {
 		super();
 		this.empId = empId;
@@ -39,10 +39,9 @@ public class Emp {
 
 	@Override
 	public String toString() {
-		return "Emp Id = "+empId;
+
+		return "Emp [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + "]";
+
 	}
-	
-	
-	
-	
+
 }
